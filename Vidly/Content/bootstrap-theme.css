@@ -1,0 +1,54 @@
+﻿.navbar-inverse {
+    background-color: #36B1BF;
+    border-color: #279DAB;
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+a {
+    color: #09A7E4;
+}
+.btn {
+    border-radius: 8px;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #F2385A;
+    border-color: #F2385A;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #ffffff;
+    background-color: #F2385A;
+    border-color: #D82848;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #F2385A;
+    border-color: #F2385A;
+}
+
+.form-control {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color ease-in-out .10s, box-shadow ease-in-out .15s;
+    -moz-transition: border-color ease-in-out .10s, box-shadow ease-in-out .15s;
+    -ms-transition: border-color ease-in-out .10s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .10s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .10s, box-shadow ease-in-out .15s;
+    border-radius: 7px;
+}
+
+.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 2px solid #66afe9;
+}

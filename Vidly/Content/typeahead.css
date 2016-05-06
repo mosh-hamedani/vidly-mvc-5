@@ -1,4 +1,8 @@
-﻿.typeahead {
+﻿.twitter-typeahead {
+    width: 300px;
+}
+
+.typeahead {
   background-color: #fff;
 }
 
