@@ -42,6 +42,10 @@
     <Reference Include="AutoMapper">
       <HintPath>..\packages\AutoMapper.4.1.0\lib\net45\AutoMapper.dll</HintPath>
     </Reference>
+    <Reference Include="Elmah, Version=1.2.14706.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\elmah.corelibrary.1.2.2\lib\Elmah.dll</HintPath>
+    </Reference>
     <Reference Include="Glimpse.Ado">
       <HintPath>..\packages\Glimpse.Ado.1.7.3\lib\net45\Glimpse.Ado.dll</HintPath>
     </Reference>
