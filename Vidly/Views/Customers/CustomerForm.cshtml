@@ -10,7 +10,7 @@
 {
     @Html.ValidationSummary(true, "Please fix the following errors.")
     <div class="form-group">
-        @Html.LabelFor(m => m.Customer.Name)
+        @Html.LabelFor(m => m.Customer.Name, "Customer Name")
         @Html.TextBoxFor(m => m.Customer.Name, new { @class = "form-control" })
         @Html.ValidationMessageFor(m => m.Customer.Name)
     </div>
@@ -20,7 +20,7 @@
         @Html.ValidationMessageFor(m => m.Customer.MembershipTypeId)
     </div>
     <div class="form-group">
-        @Html.LabelFor(m => m.Customer.Birthdate)
+        @Html.LabelFor(m => m.Customer.Birthdate, "Date of birth")
         @Html.TextBoxFor(m => m.Customer.Birthdate, "{0:d MMM yyyy}", new { @class = "form-control" })
         @Html.ValidationMessageFor(m => m.Customer.Birthdate)
     </div>
