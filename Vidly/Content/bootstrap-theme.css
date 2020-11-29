@@ -1,38 +1,10 @@
-﻿body {
-    color: #52656B;
-}
-
-h1, .h1, h2, .h2, h3, .h3 {
-    margin-bottom: 30px;
-}
-
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    color: #3B4B50;
-}
-
-h2, .h2 {
-    font-size: 25px;
-}
-
-.body-content {
-    padding-top: 20px;
-}
-
-.navbar-inverse {
-    background-color: #FF3B77;
-    border-color: #FF8598;
+﻿.navbar-inverse {
+    background-color: #36B1BF;
+    border-color: #279DAB;
     color: #fff;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #fff;
-    border-bottom: 3px solid transparent;
-    transition: border-bottom ease-in-out .15s;
-    padding-bottom: 10px;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    border-bottom: 3px solid #fff;
     color: #fff;
 }
 
@@ -40,49 +12,31 @@ h2, .h2 {
     color: #fff;
 }
 
-.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
-    color: #860D32;
-    background-color: transparent;
-}
-
-a, .btn-link {
+a {
     color: #09A7E4;
 }
 .btn {
-    border-radius: 10px;
-    text-transform: none;
-    font-weight: bold;
-    font-size: 12px;
+    border-radius: 8px;
 }
 
 .btn-primary {
     color: #ffffff;
-    background-color: #52656B;
-    border: 0;
-    padding: 8px 20px;
+    background-color: #F2385A;
+    border-color: #F2385A;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    color: #52656B;
-    background-color: #CDFF00;
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #ffffff;
+    background-color: #F2385A;
+    border-color: #D82848;
 }
 
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-    color: #ffffff;
-    background-color: #52656B;
-    border-color: #52656B;
-}
-
-.pagination > li > a, .pager > li > a, .pagination > li > span, .pager > li > span {
-    text-transform: none;
-}
-
-table a:not(.btn), .table a:not(.btn) {
-    text-decoration: none;
+    background-color: #F2385A;
+    border-color: #F2385A;
 }
 
 .form-control {
-    height: 41px;
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: border-color ease-in-out .10s, box-shadow ease-in-out .15s;
@@ -90,11 +44,11 @@ table a:not(.btn), .table a:not(.btn) {
     -ms-transition: border-color ease-in-out .10s, box-shadow ease-in-out .15s;
     -o-transition: border-color ease-in-out .10s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .10s, box-shadow ease-in-out .15s;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .form-control:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border: 2px solid #FF8598;
+    border: 2px solid #66afe9;
 }
