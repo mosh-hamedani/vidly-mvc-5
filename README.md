@@ -1,2 +1,4 @@
-# vidly-mvc-5
-A new line of code
+Nice Weather
+new line
+A new word
+So Special
