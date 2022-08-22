@@ -1,2 +1,2 @@
-# vidly-mvc-5
-A new line of code
+learn git and github
+a new line.
