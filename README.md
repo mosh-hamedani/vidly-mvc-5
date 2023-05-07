@@ -1,2 +1,1 @@
-# vidly-mvc-5
-A new line of code
+update the readme file with video timelines
