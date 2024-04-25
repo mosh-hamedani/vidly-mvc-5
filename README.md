@@ -1,2 +1,4 @@
 # vidly-mvc-5
-A new line of code
+I change this code locally 
+add this from github account
+update password manager from kraken
